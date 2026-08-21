@@ -243,8 +243,13 @@ footer {background: var(--neutral-700); color: #fff; padding: 60px 0;}
     }
     .header-inner {padding: 1em;}
     .header-inner > div {gap: 1em;}
-    .gnb-list, nav {display: none;}
-    #main-nav {position: fixed; right: -100%;}
+    .gnb-list {display: none;}
+    .main-nav {width: 100%; position: fixed; top: 0; right: 0; background: #fff;}
+    .main-menu {display: block;}
+    .main-menu > li > a {padding: 1em 0; border: 1px solid var(--neutral-300); color: var(--neutral-900);}
+    .depth2 {display: flex; background: #fff; position: absolute; width: 100%; left: 0; top: 77px; line-height: 2; padding: 1.25em 0;}
+    .depth2 {position: static; display: block; text-indent: 2.4em;}
+    .depth2 > li {width: 100%;}
     .ham-btn {display: block; width: 32px;}
 
     .reservation-wrap {display: none;}
